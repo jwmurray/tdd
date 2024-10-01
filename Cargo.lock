@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "fact"
+version = "0.1.0"
+
+[[package]]
 name = "factorial"
 version = "0.1.0"
 

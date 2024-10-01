@@ -1,9 +1,9 @@
-# Rust Test Driven Development (TDD) examples
+# Test Driven Development (TDD) examples in Rust
 
 ### TDD follows the simple but powerful cycle of 
-- Red -- Write a test that fails
-- Green -- Write just enough code to make the test work
-- Refactor -- clean up the code, eliminate duplicate code and clean up the comments and docs.
+1. Red -- Write a test that fails
+2. Green -- Write just enough code to make the test work
+3. Refactor -- clean up the code, eliminate duplicate code and clean up the comments and docs.
 
 #### Key #1: Don't write a line of code that is not demanded by a failig test.
 #### Key #2: Refactor to 
@@ -11,7 +11,7 @@
 - make unclear code clear
 - make unclear tests clear
 
-#### Key #3:  Use [cyber-dojo.org](https://cyber-dojo.org/creator/home) to find coding katas and practice every day for 30 minutes
+#### Key #3:  Use [cyber-dojo.org](https://cyber-dojo.org/creator/home) to find coding katas and practice every day for 30 minutesx
 
 youtube resources:
 - https://www.youtube.com/watch?v=lIRF8MgyXho
