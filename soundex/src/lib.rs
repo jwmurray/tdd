@@ -81,7 +81,7 @@ pub fn soundex(input_word: &str) -> Option<String> {
     } else {
         return None;
     }
-    // Rule 2:
+    // Rule 2: -- digit encodings 2-4
     let mut taken = 1; // start at 1 because we've already taken the first letter
     let mut intervening_vowel: bool = false;
     for current_char in input_word_lower.chars().skip(1) {
@@ -181,8 +181,6 @@ mod tests {
 
     #[test]
     pub fn test_5_encode_second_letter_d_t_encode_to_3() {
-        let result = soundex("Ad").unwrap();
-        println!("result: {:?}", result);
         assert_eq!(soundex("Ad").unwrap(), "A300");
         assert_eq!(soundex("At").unwrap(), "A300");
     }
